@@ -2,7 +2,7 @@ Welcome to the "Recycle Bin" - A.K.A "Trash Bin". Let be for real, we
 
 know 99.99% of the codes we put in here not gonna be use. Our goal is to 
 
-keep it at 99%.
+make it at 99%.
 
 
 
