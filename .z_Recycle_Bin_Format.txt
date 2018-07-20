@@ -26,10 +26,4 @@ Why these changes in the recycle bin...
 
 
 
-// Next trash start here: <- Sample end, please don't start here
-
-
-
-Recycle Bin:
-
-/* Here is the start */
+// Next trash start here: <- Sample end
