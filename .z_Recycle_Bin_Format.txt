@@ -8,9 +8,9 @@ make it at 99%.
 
 Format of the "Recycle Bin" sample: // 3 Space seperate between trash.
 
-Name Here - Month Date, Year
+Month Date, Year
 
-/* FILE NAME
+FILE NAME
 
 Changes made: ...
 
