@@ -1,0 +1,33 @@
+Setup Configuration:
+Name : $ git config --global user.name "USERNAME"
+Email: $ git config --global user.email "EMAIL"
+
+Local Commands:
+Current status of files  : $ git status
+Add files to staging area: $ git add ... (-A for all)
+Take snapshot of changes : $ git commit -m "MESSAGE"
+
+Data From Remote Repository:
+Add remote server URL                    : $ git add <SHORTNAME> <URL>
+Merge new changes to the server          : $ git push <REMOTE_SERVER> <Branch>
+Get and merge new changes from the server: $ git pull <REMOTE_SERVER>
+Get new changes but don't merge          : $ git fetch origin
+NOTE: Pull command may has "Merge Conflict".
+This happen when you and your team change the same line in the same file.
+Hope with the system I've setup, we will not have to deal with this.
+Here is resource to solve the conflict:
+https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts
+
+Merge Conflict and Reverse Engineer:
+Solve the merge conflict               : $ git mergetool
+Reverse a file back to it's last commit: $ git checkout -- <FILE_NAME>
+
+
+3 Level of Passing Data:
+Working Directory -> Staging Area     : $ git add ...
+Staging Area      -> Local Repository : git commit -m "MEASSAGE"
+Local Repository  -> Remote Repository: git push origin master
+
+2 Level of Getting Data:
+Remote Repository -> Local Repository: git fetch origin
+Local Repository -> Working Directory
