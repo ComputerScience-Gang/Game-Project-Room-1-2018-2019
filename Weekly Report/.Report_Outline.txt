@@ -1,0 +1,7 @@
+Date: MONTH DAY, YEAR
+Reporter's Name: REPORTER_NAME
+WRITE_REPORT
+- Problems.
+- What Got Done This Week.
+- What Is The Aim For Next Week.
+...
